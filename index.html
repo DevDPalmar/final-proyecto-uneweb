@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color de Fondo Aleatorio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="body">
+    <select id="colorSelect" onchange="changeColor(this.value)">
+        <option>Seleccionar</option>
+    </select>
+    <button onclick="randomizeColor()">Randomizar</button>
+    <button onclick="addColor()">Añadir color actual del fondo</button>
+    <button onclick="removeColor()">Eliminar</button>
+    <input type="text" id="colorInput" placeholder="Insertar código de color HTML">
+    <button onclick="addHTMLColor()">Añadir Código HTML</button>
+    <button onclick="copyColor()">Copiar color al portapapeles</button>
+    <script src="script.js"></script>
+</body>
+</html>
